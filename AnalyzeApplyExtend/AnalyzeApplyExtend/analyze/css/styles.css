@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Student Name: Shane Mack
+	File Name: styles.css
+	Current Date: 3/10/2024
 */
 
 /* CSS reset */
@@ -70,4 +70,52 @@ footer {
     font-size: 0.85em;
     color: #fff;
     padding: 1% 0;
+}
+
+/* Add a comment below the img style rule */
+/* Styles for mobile viewport */
+
+/* Add meta viewport element */
+/* Add a comment below indicating where style rules for the mobile viewport begin */
+/* Styles for mobile viewport */
+
+/* Add a declaration to the nav ul style rule */
+nav ul {
+    list-style: none; /* Remove the bullet marker */
+}
+
+/* Add a declaration to the nav li style rule */
+nav li {
+    display: inline-block; /* Display as inline-block */
+}
+
+/* Add a style rule for the tablet-desktop class */
+/* Hide the tablet-desktop class */
+.tablet-desktop {
+    display: none;
+}
+
+/* Add a style rule for the btn class */
+/* Specify styles for buttons */
+.btn {
+    background-color: #375f1b;
+    padding: 2%;
+    margin: 2% auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Add a style rule for anchor elements within the btn class */
+.btn a {
+    color: #ebf7e3;
+    text-decoration: none; /* Remove underline */
+    font-size: 1.25em;
+    display: block;
+}
+
+/* Add a style rule for the corner class selector */
+/* Specify border radius for corner class */
+.corner {
+    border-radius: 12px;
 }
