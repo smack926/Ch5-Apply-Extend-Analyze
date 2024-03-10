@@ -1,4 +1,4 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: Shane Mack, 3/6/2024 */
 
 /* CSS Reset */
 body, header, nav, main, footer, h1, div, img, ul {
@@ -12,13 +12,18 @@ body {
 	background-color: #e4f1f6;
 }
 
-/* Style rule for header */
-header {
-	font-family: Verdana, Arial, sans-serif;
-	text-align: center;
-    padding: 3%;
-    color: #092834;
-    margin-top: 5%;
+/* Style rule for images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule for mobile viewport */
+/* Style rules for mobile viewport */
+
+/* Style rule to hide tablet-desk class */
+.tablet-desk {
+    display: none;
 }
 
 /* Style rules for nav */
@@ -26,21 +31,21 @@ nav {
 	padding: 1%;
     margin-bottom: 1%;
     background-color: #67afcb;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky; /* For other modern browsers */
+    top: 0;
 }
 
 nav ul {
     text-align: center;
+    list-style-type: none; /* Remove bullet marker */
 }
 
 nav li {
     font-size: 1.5em;
     padding: 4%;
-}
-
-nav li a {
-    display: block;
-    color: #092834;
-    text-decoration: none;
+    display: inline-block; /* Set display to inline-block */
+    font-family: 'B612', sans-serif; /* Use B612 Google Font */
 }
 
 /* Style rules for main content  */
@@ -49,6 +54,7 @@ main {
 	margin: 1% 1% 15%;
 	padding: 1%;
     font-size: 1.5em;
+    font-family: 'Crimson Text', serif; /* Use Crimson Text Google Font */
 }
 
 #image {
@@ -60,4 +66,9 @@ footer {
 	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
+}
+
+/* Style rule for the corner class */
+.corner {
+    border-radius: 12px;
 }
